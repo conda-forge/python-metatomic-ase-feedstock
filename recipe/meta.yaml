@@ -1,4 +1,4 @@
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: python-metatomic-ase
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/metatomic-ase/metatomic_ase-{{ version }}.tar.gz
-  sha256: 0cf3060214cad63aa33c1bd81f0c1d9cfcdfc62eb5f8b43140908e32eb58904f
+  sha256: d2adde197c55a8e4665c1a7cd811c32c51552edadd41dd03b159657b2b6cc635
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - python-vesin >=0.5.6,<0.6
+    - python-vesin >=0.6.0,<0.7
     - python-metatomic-torch >=0.1.12,<0.2
     - ase >=3.25
 
