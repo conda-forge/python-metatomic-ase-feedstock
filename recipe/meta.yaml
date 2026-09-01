@@ -1,12 +1,12 @@
-{% set version = "0.1.3" %}
+{% set version = "0.1.4" %}
 
 package:
   name: python-metatomic-ase
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/m/metatomic-ase/metatomic_ase-{{ version }}.tar.gz
-  sha256: 97bdc21c980ece4e2edc046bdf111372b453e35002ce19574ec9a34c74c6e2fd
+  url: https://files.pythonhosted.org/packages/source/m/metatomic-ase/metatomic_ase-{{ version }}.tar.gz
+  sha256: e6a2b021cb0c3fe5879542f2e78f82319300c012e11f8da03a666cbde090bdae
 
 build:
   noarch: python
